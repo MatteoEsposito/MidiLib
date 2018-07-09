@@ -1,0 +1,4 @@
+# ignore all logs
+*.log
+# ignore all DS_Store
+*.DS_Store
