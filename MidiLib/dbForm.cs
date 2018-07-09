@@ -100,17 +100,15 @@ namespace MidiLib
                             
                             var db = new LiteDatabase(@"./songs.db");                                                               
                             var col = db.GetCollection<song>("songs");
-                            // Create your new customer instance
-                            var customer = new song
+
+                            var songs = new song
                             {
                                 Name = Path.GetFileNameWithoutExtension(file),
                                 Path = file,
                                 searchString = Path.GetFileNameWithoutExtension(file).ToLower()
 
                             };
-
-                            // Insert new customer document (Id will be auto-incremented)
-                            col.Insert(customer);
+                            col.Insert(songs);
                             statusLbl.Text = "Adding:\t" + Path.GetFileNameWithoutExtension(file).ToLower();
                             j++;
                         }
@@ -156,10 +154,6 @@ namespace MidiLib
 
         private void BackgroundWorker1_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
-
-            //  mtx.ReleaseMutex();
-            
-            // the code that you want to measure comes here
            
             if (dump.Count != 0)
             {
@@ -169,13 +163,10 @@ namespace MidiLib
             }
             else
             {
-                //    progressBar1.
                 progressBar1.Style = ProgressBarStyle.Blocks;
                 watch.Stop();
                 var elapsed = watch.Elapsed;
-
                 statusLbl.Text = statusLbl.Text + " in " + elapsed.ToString("mm\\:ss\\.ff") +" m";
-                //    Debug.WriteLine("Ended");
             }
         }
 
