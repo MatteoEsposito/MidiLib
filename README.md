@@ -17,7 +17,7 @@ you can add paths to the Database wich recursively search all mid, midi and kar 
 After have imported all the path you can start searching. When you've found the file you were looking for with a click on it's name the app starts the system-default associated program. ( e.g. VanBasco )
 
 ## TODO:
-I'm realisng the source code because I strongely believe in the free contribution to the common knowledge and software, in this form. So here it is a little list of ideas, feel free to implement it and issue here a merge o a pull request!
+I'm releasing the source code because I strongely believe in the free contribution to the common knowledge and software, in this form. So here it is a little list of ideas, feel free to implement it and issue here a merge o a pull request!
 - Better managemnt and flexibility of the database handler
 - Let user decide with which applciation start the file selected
 - Support for dupicate deletion
