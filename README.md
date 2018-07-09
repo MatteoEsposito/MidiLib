@@ -4,6 +4,13 @@
 Just a proof-of-concept, a little, very featureless Midi Library to use in conjunction with Karaoke software which lacks the ability to search in folders ( like VanBasco )
 This app aims to get a fully fuctional midi libary, it can be very usefull in a varieties of workflow and situations.
 
+## Release Version History
+V 1.0 09-07-2018
+
+## Pre-requisite
+- Have some midi file ( including kar files ) 
+- .NetFramework 4/4.5
+
 ## How to Build
 In order to build, it has to include the following libraries
 - LiteDB: NOSQL database free implemetantion
