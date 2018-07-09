@@ -5,7 +5,7 @@ Just a proof-of-concept, a little, very featureless Midi Library to use in conju
 This app aims to get a fully fuctional midi libary, it can be very usefull in a varieties of workflow and situations.
 
 ## Release Version History
-V 1.0 09-07-2018
+1.0 : 09-07-2018
 
 ## Pre-requisite
 - Have some midi file ( including kar files ) 
