@@ -34,7 +34,6 @@ namespace MidiLib
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        //   public string[] path { get; set; }
         public string Path { get; set; }
         public string searchString { get; set; }
     }
