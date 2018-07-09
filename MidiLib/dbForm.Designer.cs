@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("C:\\Users\\bbqualcosa\\Downloads\\midi_files\\T");
             this.addFolderBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pathView = new System.Windows.Forms.ListView();
@@ -67,8 +66,6 @@
             // 
             this.pathView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pathView.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5});
             this.pathView.Location = new System.Drawing.Point(12, 30);
             this.pathView.Name = "pathView";
             this.pathView.Size = new System.Drawing.Size(396, 54);
@@ -156,7 +153,6 @@
             this.Load += new System.EventHandler(this.dbForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
-            // EasterEgg: Designed and developed by Matteo Esposito
 
         }
 
