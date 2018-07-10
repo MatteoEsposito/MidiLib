@@ -2,3 +2,7 @@
 *.log
 # ignore all DS_Store
 *.DS_Store
+*.compressed
+*.cache
+*.pdb
+*.config
